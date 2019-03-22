@@ -13,8 +13,9 @@ public class MyMenu extends JMenu implements ActionListener {
 		
 		// Menu items
 		JMenuItem[] menuItems = new JMenuItem[] {
-				new JMenuItem("Item_01"),
-				new JMenuItem("Item_02")
+				new JMenuItem("MENU"),
+				new JMenuItem("LOGOUT"),
+				new JMenuItem("EXIT")
 		};
 		for (int i = 0; i < menuItems.length; i++) {
 			// Add item to menu

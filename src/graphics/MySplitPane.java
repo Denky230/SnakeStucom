@@ -27,7 +27,7 @@ public class MySplitPane extends JSplitPane {
 		// Build menu structure
 		JMenuBar menuBar = new JMenuBar();
 		scrollPane.setColumnHeaderView(menuBar);
-		MyMenu menu = new MyMenu("Menu");
+		MyMenu menu = new MyMenu("Program");
 		menuBar.add(menu);
 		
 		/* RIGHT PANEL */
